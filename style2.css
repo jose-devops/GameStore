@@ -1,0 +1,2047 @@
+*{
+    padding: 0;
+    margin: 0;
+    display: flexbox;
+}
+
+body{
+    
+    background-color: #00091A
+
+    
+
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #00091A ;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    align-items: center;
+
+    
+
+  
+    
+    
+    
+}
+
+
+/*----------------------------------------*/
+
+
+
+.search_section{
+   width: 33.3%;
+    align-items: center;
+    display: flex;
+    /*background-color: #31ff31;*/
+}
+
+
+
+.search_div{
+    background-color: #F36324;
+    border-radius: 10px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    width:350px;
+  
+    
+   
+    
+}
+
+.search_div input{
+    width: 80%;
+    border: none;
+    height: 35px;
+    border-radius: 10px;
+    outline: 0;
+    background-color: #F36324;
+    color: #ffffff; 
+    padding: 0% 5px;
+    border-bottom: 1px solid #F36324;
+   
+   
+    
+    
+   
+
+}
+
+input::placeholder {
+    color: rgb(255, 255, 255);
+  
+}
+.search_div a{
+    padding: 10px;
+}
+
+
+.menu{
+   /*background-color: cadetblue;*/
+    width: 33.3%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    
+    
+   
+   
+    
+
+ 
+
+}
+
+.body_menu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+    list-style: none;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin: 0;
+    
+    
+
+    
+    
+}
+
+.body_menu a {
+    width: 100%;
+    color: #ffff;
+    text-transform: uppercase;
+    font-weight: 500;   
+    font-size: 15px;
+    text-decoration: none;
+   
+}
+
+.body_menu a:hover{
+    color: #F36324;
+}
+
+
+
+
+/*----------------------------------------------------------*/
+
+
+
+
+
+.cart{
+ background-color: #F36324;
+    height: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0 30px;
+    border-radius: 10px;
+   
+
+
+}
+
+.icon_cart{
+    width: 0%;
+    height: 50px;
+    border-radius:10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+/*------------------------------------------*/
+
+
+.user{
+   
+    width: 33.3%;
+    height: auto;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    justify-content: right;
+
+   
+    
+    
+}
+
+.nav-link{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+   
+
+    
+}
+
+.user_desc{
+    color: aliceblue;
+
+}
+
+
+.dropdown-menu{
+    width: 120%;
+    padding: 20px;
+}
+
+.desc_dropdown{
+    padding: 0 20px;
+    font-size: 15px;
+    
+}
+
+
+
+
+.dropdown-menu li {
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+
+
+}
+
+.dropdown-menu li a{
+    height: 50px;
+    border: 3px solid #F36324;
+    border-radius: 10px;
+    color: #F36324;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.dropdown-menu li a:hover{
+    background-color: #F36324;
+    color: #ffffff;
+}
+
+
+
+/*MAIN*/
+
+
+.sec_banner{
+    width: 100%;
+    height: 650px;
+
+
+
+    
+
+
+}
+
+.info_banner{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+
+
+}
+
+.InfoB_Body{
+    width: 90%;
+    height: 100%;
+    background-color: #0186d7;
+    align-items: center;   
+    justify-content: center;
+    display: flex;
+    border-radius: 10px 10px 0px 0px;
+    
+
+
+}
+
+
+
+.img_banner{
+    width: 100%;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.img_banner img{
+    width: 90%;
+    height: 100%;
+    -webkit-mask-image: linear-gradient(to top, transparent 0%, black 100%);
+
+}
+
+
+/**/
+
+
+.sec_infoCard{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: #5ff3248c;*/
+
+}
+
+.info_card{
+    /*background-color: #0186d7;*/
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+
+  
+
+
+   
+}
+
+.tarja_banner img{
+    width: 70%;
+    object-fit: cover;
+    
+
+
+}
+
+.sec_miniPromoCards{
+    /*background-color: #F36324;*/
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    
+   
+}
+
+.sec_miniPromoCards img{
+    border-radius: 10px;
+   
+}
+
+.card_sec{
+    /*background-color: #145ce2;*/
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    
+
+    
+}
+
+
+
+.card_info{
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    width: 15rem;
+    height: 500px;
+    border-radius: 10px;
+    padding: 10px;
+    
+  
+    
+    
+   
+   
+
+}
+
+.cards{
+    width: 100%;
+    height: auto;
+    gap: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center ;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    
+   
+
+}
+
+.product_card{
+    width: 210px;
+    height: 350px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #ffffff;
+    display: block;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+ 
+}
+
+.img_product{
+    background-color: #ffffff;
+}
+
+.info_product{
+    
+
+}
+
+.body_product{
+    list-style: none;
+    color: black;
+}
+
+.title_product{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.desc_product{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.info_price{
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.price_product{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.desc_cond{
+    font-size: 12px;
+
+}
+
+.cond_price{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.product_card:hover {
+    transform: scale(1.05); 
+}
+
+
+
+.offer_product{
+  
+    width: 95%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+
+}
+
+.info_Ofertas{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    
+    
+    
+   
+
+}
+
+.info_Ofertas h1{
+    color: #d77a01;
+    font-weight: 600;
+    font-size: 30px;
+
+}
+
+.info_Ofertas span{
+    color: rgb(255, 255, 255);
+
+}
+
+
+.Midi_Banner{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.Midi_Banner img{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    -webkit-mask-image: linear-gradient(to top, transparent 5%, black 100%);
+}
+
+
+.Area_Loja{
+    width: 100%;
+    height: 300px;
+  
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.Loja_Desc{
+    
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    
+}
+
+.Info_Loja{
+    width: 50%;
+    height: 100%;
+    background-color: #00091A;
+    border-radius: 10px;
+    padding: 15px;
+    color: #ffffff;
+    
+}
+
+
+.Info_Loja span{
+    font-size: 30px;
+    margin-bottom: 10%;
+    color: #F36324;
+}
+
+
+
+
+.Photo_Loja{
+    width: 50%;
+    height: 100%;
+    
+
+}
+
+.Photo_Loja img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+
+
+footer{
+    margin-top: 10%;
+    background-color: rgb(12, 77, 206);
+    width: 100%;
+    height: 150px;
+ 
+    
+
+}
+
+
+
+
+/*madais */
+
+
+
+.Product_Area{
+
+    width:100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+   
+
+}
+
+.Product_Photo{
+   
+    width: 35%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    
+}
+
+.Product_Photo img{
+    
+    padding: 20px;
+}
+
+.Product_Info{
+    width: 90%;
+    height: 100%;
+    padding: 20px 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 16px 0px black;
+  
+   
+
+
+    
+}
+
+.Name_Product{
+    font-size: 40px;
+}
+
+.Product_Status{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+
+}
+
+.Product_Price{
+    font-size: 30px;
+    font-weight: 600;
+
+
+}
+
+.Sale{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #d1d1d1;
+    margin-bottom: 5px;
+  
+}
+
+.Sale ul{
+ 
+    list-style: none;
+    padding: 0;
+   
+    font-size: 12px;
+    
+}
+
+.Sale_List{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 50px;
+   
+}
+
+
+
+.cards_option{
+    width: 100%;
+    height: 30px;
+    gap: 10px;
+    display: flex;
+}
+
+
+
+.sidebar{
+    width: 15%;
+    height: 700px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+
+    
+
+
+}
+
+.product{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(76, 243, 159);
+    margin-bottom: 15px;
+    display: flex;
+    padding: 0px;
+    align-items: center;
+
+
+}
+
+.img_ProductSidebar{
+    width: 40%;
+    height: 100%;
+    background-color: #ffffff;
+    align-items: center;
+    display: flex;
+}
+
+.img_ProductSidebar img{
+    width: 108px;
+    height: 100px;
+}
+
+.Sidebar_InfoProd{
+    width: 60%;
+    height: 120px;
+    background-color:#ffffff ;
+    display: flex;
+    align-items: center;
+    
+    
+   
+
+}
+
+.SideProd_info{
+    padding: 10px;
+    list-style: none;
+    margin-top: 10px;
+    
+}
+
+.Prod_titleSide{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.Prod_DescSide{
+    font-size: 12px;
+
+}
+
+.Prod_DescSide p{
+    margin-bottom: 1;
+}
+
+.Prod_PriceSide{
+    font-size: 15px;
+    font-weight: 600;
+    color: #ee713b;
+
+}
+
+.btn_adcCarrinho{
+    background-color: #00091A;
+    color: #d3d3d3;
+    padding: 0.2rem;
+    border-radius: 80px;
+    border: 0;
+    font-size: 10px;
+
+    
+}
+
+.btn_adcCarrinho:hover{
+    background-color: #ee713b;
+}
+
+
+.infos_product{
+    background-color: #F36324;
+    width: 100%;
+    height: 200px;
+    display: flex;
+
+}
+
+.Desc_info{
+    background-color: #ffffff;
+    width: 80%;
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    
+
+}
+
+
+
+.photo_product{
+    width: 180px;
+    height: 180px;
+    background-color: #ffffff;
+    
+
+
+}
+
+.product_infos{
+    list-style: none;
+}
+
+.product_infos .product_Name{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.product_infos .product_Desc{
+    font-size: 14px;
+}
+
+.product_infos .emphasis{
+    font-weight: 600;
+    background-color: #F36324;
+    border-radius: 5px;
+    padding: 2px;
+    color: #ffffff;
+    font-size: 14px;
+    
+
+
+}
+
+
+.product_infos .category{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+.Price_info{
+    padding: 10px;
+    background-color: #ffffff;
+    width: 20%;
+    height: 200px;
+    text-align: right;
+   
+   
+   
+
+}
+
+.Price_info .Price_Product{
+    font-size: 25px;
+    color: #000000;
+    margin-bottom: 15px;
+    font-weight: 600;
+   
+    
+    
+
+}
+
+
+
+.qtd{
+    display: flex;
+    align-items: center;
+    gap: 5px
+}
+
+.cart_infos{
+    height: 300px;
+    background-color: #00091A;
+    padding: 10px;
+    color:#ffffff ;
+    font-size: 12px;
+    
+   
+    
+}
+
+
+
+
+
+
+@media (max-width: 575.98px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        display: flexbox;
+    }
+
+
+
+    header{
+        height: 200px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;  
+        background-color: #00091A;
+        flex-direction: column-reverse;
+       
+
+       
+        
+    }
+
+    .search_section{
+        width: 100%;
+        height: auto;
+        background-color: #00091A;
+        border-radius: 10px;
+   
+        
+       
+    }
+
+
+
+    .search_div {
+        width: 100%;
+        background-color: #0186d7;
+     
+        
+    }
+
+    .search_div input{
+        background-color: #0186d7;
+        border-bottom: #0186d7;
+        
+    }
+
+    .menu{
+       
+        width: 100%;
+        height: 40px;
+     
+        
+    }
+
+    .body_menu{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+        
+
+    }
+
+    .body_menu a {
+        color: #F36324;
+        
+    }
+
+    .user{
+        width:100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10;
+
+    }
+
+    .dropdown-menu{
+      width: auto;
+    }
+
+    .cart
+    {
+        width: 10%;
+        background-color: #00091A;
+        border-radius: 0px 0px 10px 10px;
+        
+
+    }
+
+    .nav{
+        width: 10%;
+        background-color: #00091A;
+
+        border-radius: 10px 10px 0px 0px;
+   
+        
+    }
+
+    .nav .img_user{
+        
+    }
+
+    
+
+    .user_desc{
+        display: none;
+        color: #ffffff;
+    }
+
+
+    .info_banner{
+        width: 100%;
+        height: auto;
+    }
+
+
+    .InfoB_Body{
+        width: 100%;
+        height: auto;
+        background-color: #F36324;
+        color: #00091A;
+        border-radius: 10px 10px 0 0;
+        
+        
+    }
+
+    .InfoB_Body img{
+        display: none;
+
+        
+    }
+
+    .sec_banner{
+        width: 100%;
+        height: 135px;
+        margin-bottom: 2%;
+        background-image: url(./img/banner016.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        -webkit-mask-image: linear-gradient(to top, transparent 10%, black 100%);
+
+        
+  
+
+       
+    }
+
+    .img_banner{
+        display: none;
+
+    }
+
+    .img_banner img{
+        width: 100%;
+        height: 100%;
+       
+        
+    }
+
+    .sec_infoCard{
+        display: none;
+    }
+
+    .sec_miniPromoCards{
+        display: none;
+    }
+
+    .offer_product{
+        width: 100%;
+        height: 100%;
+    }
+
+    .info_Ofertas{
+     
+        width: 100%;
+        height: 100%;
+    }
+
+    .Midi_Banner{
+        width: 100%;
+        height: 109px;
+        background-color: #0186d7;
+        background-image: url(./img/banner015.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        -webkit-mask-image: linear-gradient(to top, transparent 10%, black 100%);
+
+
+       
+
+    }
+
+    .Midi_Banner img{
+        display: none;
+
+    }
+
+    .Area_Loja{
+
+        display: none;
+    }
+
+
+    footer{
+        background-color: #F36324;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .modal{
+        width: 100%;
+    }
+
+    .modal-body{
+       
+        width: 100%;
+        padding: 0;
+        
+
+        
+    }
+
+    .Product_Area{
+       
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+       
+
+
+
+    }
+
+    .Product_Photo{
+        
+        width: 100%;
+        height: 0%;
+        margin-bottom: -55px;
+
+    }
+
+    .Product_Photo img{
+        width: 100%;
+       
+    }
+
+    .Product_Info{
+        
+        width: 100%;
+        height: 100%;
+        
+        
+      
+    }
+
+    .Product_Status{
+        font-size: 20px;
+    }
+
+    .Product_Price{
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .Desc_Price{
+        font-size: 12px;
+       
+    }
+
+    .Sale{
+        font-size: 12px;
+        
+    }
+
+    .Sale_List{
+        width: 100%;
+        font-size: 12px;
+        
+    }
+
+    .Sale_List .list01{
+        font-size: 12px;
+    }
+
+    .cards_option {
+       
+        width: 100%;
+        height: 20px;
+        
+        
+    }
+
+    .cards_option img{
+      
+        
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        display: flexbox;
+    }
+
+
+
+    header{
+        height: 200px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;  
+        background-color: #00091A;
+        flex-direction: column-reverse;
+       
+
+       
+        
+    }
+
+    .search_section{
+        width: 100%;
+        height: auto;
+        background-color: #00091A;
+        border-radius: 10px;
+   
+        
+       
+    }
+
+
+
+    .search_div {
+        width: 100%;
+        background-color: #0186d7;
+        
+    }
+
+    .search_div input{
+        background-color: #0186d7;
+        border-bottom: #0186d7;
+        
+    }
+
+
+    .menu{
+       
+        width: 100%;
+        height: 40px;
+     
+        
+    }
+
+    .body_menu{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+        
+
+    }
+
+    .body_menu a {
+        color: #F36324;
+        
+    }
+
+
+    .user{
+        width:100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10;
+
+    }
+
+    .dropdown-menu{
+        width: auto;
+    }
+
+
+    .cart{
+        width: 10%;
+        background-color: #00091A;
+         border-radius: 0px 0px 10px 10px;
+          
+  
+    }
+  
+
+    .nav{
+        width: 10%;
+        background-color:#00091A ;
+
+        border-radius: 10px, 10px, 0px, 0px;
+   
+        
+    }
+
+    .user_desc{
+        display: none;
+        color: #ffffff;
+    }
+
+    .info_banner{
+        width: 100%;
+        height: auto;
+    }
+
+
+    .InfoB_Body{
+        width: 100%;
+        height: auto;
+        background-color: #F36324;
+        color: #00091A;
+        border-radius: 10px 10px 0 0;
+        
+        
+    }
+
+    .InfoB_Body img{
+        display: none;
+
+        
+    }
+
+    .sec_banner{
+        width: 100%;
+        height: 135px;
+        margin-bottom: 2%;
+        background-image: url(./img/banner016.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        -webkit-mask-image: linear-gradient(to top, transparent 10%, black 100%);
+
+        
+  
+
+       
+    }
+
+
+    .img_banner{
+        display: none;
+        
+    }
+
+
+    .img_banner img{
+        width: 100%;
+        height: 100%;  
+    }
+
+    .sec_infoCard{
+        display: none;
+    }
+
+    .sec_miniPromoCards{
+        display: none;
+    }
+
+    .offer_product{
+        width: 100%;
+        height: 100%;
+    }
+
+    .info_Ofertas{
+     
+        width: 100%;
+        height: 100%;
+    }
+
+    .Midi_Banner{
+        width: 100%;
+        height: 109px;
+        background-color: #0186d7;
+        background-image: url(./img/banner015.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        -webkit-mask-image: linear-gradient(to top, transparent 10%, black 100%);
+
+
+    }
+
+    .Midi_Banner img{
+        display: none;
+
+    }
+
+    .Area_Loja{
+
+        display: none;
+    }
+
+
+    footer{
+        background-color: #F36324;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .modal{
+        width: 100%;
+    }
+
+    .modal-body{
+       
+        width: 100%;
+        padding: 0;
+        
+
+        
+    }
+
+    .Product_Area{
+       
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+       
+
+
+
+    }
+
+    .Product_Photo{
+        
+        width: 100%;
+        height: 0%;
+        margin-bottom: -55px;
+
+    }
+
+    .Product_Photo img{
+        width: 100%;
+       
+    }
+
+    .Product_Info{
+        
+        width: 100%;
+        height: 100%;
+        
+        
+      
+    }
+
+    .Product_Status{
+        font-size: 20px;
+    }
+
+    .Product_Price{
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .Desc_Price{
+        font-size: 12px;
+       
+    }
+
+    .Sale{
+        font-size: 12px;
+        
+    }
+
+    .Sale_List{
+        width: 100%;
+        font-size: 12px;
+        
+    }
+
+    .Sale_List .list01{
+        font-size: 12px;
+    }
+
+    .cards_option {
+       
+        width: 100%;
+        height: 20px;
+        
+        
+    }
+
+
+
+
+
+}
+
+
+.product_card {
+    cursor: pointer;
+}
+  
+
+
+
+.modal-content {
+    background: rgba(255, 255, 255, 0); /* Fundo branco com transparência */
+    border: none;
+    
+}
+
+
+.btn-close{
+    float: right;
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        display: flexbox;
+    }
+
+
+
+    header{
+        /*background-color: #0186d7;*/
+        width: 100%;
+        height: 100px;
+        margin-bottom: 0%;
+
+    }
+
+    .search_section{ 
+        width: 33.3%;
+        font-size: 12px;
+       
+    }
+
+
+
+    .search_div {
+        width: 90%;
+
+        
+    }
+
+    .search_div input{}
+
+    .menu{}
+
+    .body_menu{}
+
+    .body_menu a {
+        font-size: 10px;
+        
+    }
+
+    .user{
+        font-size: 10px;
+        gap: 0;
+    }
+
+    .cart
+    {
+        width:5px;
+        height: auto;
+
+    }
+
+     .cart img{
+        width: 20px;
+        
+     }
+
+    .nav{}
+
+    .user_desc{}
+
+
+    .info_banner{}
+
+
+    .InfoB_Body{
+        width: 100%;
+        height: 100%;  
+    }
+
+    .InfoB_Body img{}
+
+    .sec_banner{
+        width: 100%;
+        height: 500px;
+    }
+
+    .img_banner{
+        width: 100%;
+        height: 500px;  
+    }
+
+    .img_banner img{
+        width: 100%;
+        height: 100%;    
+    }
+
+    .sec_infoCard{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tarja_banner{
+        width: 50%;
+    }
+
+    .info_card{
+        flex-wrap: wrap; 
+    }
+
+
+    .sec_miniPromoCards{
+        width: 100%;
+        height: 400px;
+        margin-bottom: 5%;
+        gap: 0 25px;
+        margin: 0px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .minibanner_00,
+    .minibanner_01,
+    .minibanner_02,
+    .minibanner_03{
+        width: 32%;
+        height: auto;
+        
+    }
+
+    .minibanner_00 img,
+    .minibanner_01 img,
+    .minibanner_02 img,
+    .minibanner_03 img{
+        width: 100%;
+        height: 80%;
+
+
+    }
+
+
+
+
+
+
+    .offer_product{
+        width: 100%;
+        height: 100%;
+    }
+
+    .info_Ofertas{
+     
+        width: 100%;
+        height: 100%;
+    }
+
+    .Midi_Banner{
+        width: 100%;
+    }
+
+    .Midi_Banner img{
+        width: 100%;
+    }
+
+
+
+    .Area_Loja{
+     
+        width: 100%;
+        height: 300px;
+    }
+
+    .Loja_Desc{
+        
+        width: 100%;
+        height: 100%;
+        padding: 30px;
+    }
+
+
+    footer{
+        background-color: #F36324;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .modal{
+        width: 100%;
+    }
+
+    .modal-body{
+       
+        width: 100%;
+        padding: 0;
+        
+
+        
+    }
+
+    .Product_Area{
+       
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+       
+
+
+
+    }
+
+    .Product_Photo{
+        
+        width: 100%;
+        height: 0%;
+        margin-bottom: -55px;
+
+    }
+
+    .Product_Photo img{
+        width: 100%;
+       
+    }
+
+    .Product_Info{
+        
+        width: 100%;
+        height: 100%;
+        
+        
+      
+    }
+
+    .Product_Status{
+        font-size: 20px;
+    }
+
+    .Product_Price{
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .Desc_Price{
+        font-size: 12px;
+       
+    }
+
+    .Sale{
+        font-size: 12px;
+        
+    }
+
+    .Sale_List{
+        width: 100%;
+        font-size: 12px;
+        
+    }
+
+    .Sale_List .list01{
+        font-size: 12px;
+    }
+
+    .cards_option {
+       
+        width: 100%;
+        height: 20px;
+        
+        
+    }
+
+    .cards_option img{
+      
+        
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1800.98px) {
+
+
+    *{
+        margin: 0;
+        padding: 0;
+        display: flexbox;
+    }
+
+
+
+
+    header{
+        width: 100%;
+        height: 100px;
+        margin-bottom: 0%;
+    
+        
+ 
+
+    }
+
+    .search_section{ 
+
+        
+ 
+       
+    }
+
+
+
+    .search_div {
+       
+
+        
+    }
+
+    .search_div input{}
+
+    .menu{
+        
+    }
+
+    .body_menu{}
+
+    .body_menu a {
+      
+        
+    }
+
+    .user{
+
+    }
+
+    .cart
+    {
+
+
+    }
+
+     .cart img{
+       
+        
+     }
+
+    .nav{}
+
+    .user_desc{}
+
+
+    .info_banner{
+        width: 100%;
+    
+    }
+
+
+    .InfoB_Body{
+
+    }
+
+    .InfoB_Body img{}
+
+    .sec_banner{
+        width: 100%;
+        height: 550px;
+        margin-bottom: 5%;
+    
+
+    }
+
+    .img_banner{
+        width: 100%;
+        height: 600px;
+    }
+
+    .img_banner img{
+ 
+    }
+
+    .sec_infoCard{
+        
+        width: 100%;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        
+
+        
+       
+
+    }
+
+    .tarja_banner{
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tarja_banner img{
+        width: 100%;
+        height: 80%;
+    }
+
+ 
+
+    .info_card{
+        width: 100%;
+        height: 100%;
+        display: flex;
+
+         
+    }
+
+
+    .sec_miniPromoCards{
+        width: 100%;
+        height: 250px;
+
+        
+    }
+
+
+    .minibanner_00,
+    .minibanner_01,
+    .minibanner_02,
+    .minibanner_03{
+        width: 20%;
+        height: auto;
+        
+    }
+
+    .minibanner_00 img,
+    .minibanner_01 img,
+    .minibanner_02 img,
+    .minibanner_03 img{
+        width: 100%;
+        height: 80%;
+
+
+    }
+
+
+
+
+
+
+
+    .offer_product{
+        width: 100%;
+
+    }
+
+    .info_Ofertas{
+        width: 100%;
+     
+    }
+
+    .Midi_Banner{
+        width: 100%;
+     
+    }
+
+    .Midi_Banner img{
+        width: 100%;
+        
+    }
+
+
+
+    .Area_Loja{
+        width: 100%;
+     
+    }
+
+    .Loja_Desc{
+        width: 100%;
+        
+    }
+
+
+    footer{
+        background-color: #F36324;
+        border-radius: 10px 10px 0 0;
+    }
+
+}
+
+@media (min-width: 1800.98px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

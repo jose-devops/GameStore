@@ -1,0 +1,749 @@
+*{
+    padding: 0;
+    margin: 0;
+    display: flexbox;
+}
+
+body{
+    
+    background-color: #00091A;
+
+    
+
+}
+
+main{
+    /*background-color: tomato;*/
+    width: 100%;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    display:flex ;
+}
+
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #00091A ;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    align-items: center;
+  
+    
+    
+    
+}
+
+
+/*----------------------------------------*/
+
+
+
+.search_section{
+   width: 33.3%;
+    align-items: center;
+    display: flex;
+    /*background-color: #31ff31;*/
+}
+
+
+
+.search_div{
+    background-color: #F36324;
+    border-radius: 10px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    width:350px;
+  
+    
+   
+    
+}
+
+.search_div input{
+    width: 80%;
+    border: none;
+    height: 35px;
+    border-radius: 10px;
+    outline: 0;
+    background-color: #F36324;
+    color: #ffffff; 
+    padding: 0% 5px;
+    border-bottom: 1px solid #F36324;
+   
+   
+    
+    
+   
+
+}
+
+input::placeholder {
+    color: rgb(255, 255, 255);
+  
+}
+.search_div a{
+    padding: 10px;
+}
+
+
+.menu{
+   /*background-color: cadetblue;*/
+    width: 33.3%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+   
+    
+
+ 
+
+}
+
+.body_menu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+    list-style: none;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin: 0;
+    
+
+    
+    
+}
+
+.body_menu a {
+    width: 100%;
+    color: #ffff;
+    text-transform: uppercase;
+    font-weight: 500;   
+    font-size: 15px;
+    text-decoration: none;
+   
+}
+
+.body_menu a:hover{
+    color: #F36324;
+}
+
+
+
+
+/*----------------------------------------------------------*/
+
+
+
+
+
+.cart{
+ background-color: #F36324;
+    height: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0 30px;
+    border-radius: 10px;
+   
+
+
+}
+
+.icon_cart{
+    width: 0%;
+    height: 50px;
+    border-radius:10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+/*------------------------------------------*/
+
+
+.user{
+   
+    width: 33.3%;
+    height: auto;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    justify-content: right;
+
+   
+    
+    
+}
+
+.nav-link{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+   
+
+    
+}
+
+.user_desc{
+    color: aliceblue;
+
+}
+
+
+.dropdown-menu{
+    width: 120%;
+    padding: 20px;
+}
+
+.desc_dropdown{
+    padding: 0 20px;
+    font-size: 15px;
+    
+}
+
+
+
+
+.dropdown-menu li {
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+
+
+}
+
+.dropdown-menu li a{
+    height: 50px;
+    border: 3px solid #F36324;
+    border-radius: 10px;
+    color: #F36324;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.dropdown-menu li a:hover{
+    background-color: #F36324;
+    color: #ffffff;
+}
+
+/*MAIN*/
+
+.infos_Register{
+    /*background-color: #333333;*/
+    width: 35%;
+    height: 95%;
+
+    
+
+ 
+  
+
+}
+
+.tittle_register{
+    background-color: rgb(245, 139, 0);
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: #ffff;
+
+    
+    
+
+    
+    
+}
+
+.tittle_register h1 {
+    font-size: 25px;
+
+
+}
+
+.tittle_register h2{
+    font-size: 20px;
+}
+
+.tittle_register a{
+    text-decoration: none;
+    color: #00091A;
+}
+
+hr{
+    
+    background-color: #ff8800;
+    
+}
+
+
+.form_register{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+    
+  
+
+    
+
+}
+
+.form_register form{
+    width: 100%;
+    height: 380px;
+    /*background-color: darkcyan;*/
+    justify-content: center;
+    padding: 0px 30px;
+    text-align: left;
+    
+    
+    
+
+}
+.form_register form label{
+    color: #ffff;
+    font-size: 20px;
+
+}
+
+.form_register form input{
+    width: 100%;
+    height: 12%;
+    font-size: 20px;
+    
+}
+
+.btn_cadastrar{
+    
+    width: 100%;
+    text-align: center;
+   
+}
+
+.btn_cadastrar button{
+    width: 50%;
+    height: 50px;
+    background-color: #F36324;
+    color: #ffff;
+}
+
+
+
+footer{
+    background-color: rgba(0, 14, 41, 1);
+    width: 100%;
+    height: 150px;
+    -webkit-mask-image: linear-gradient(to bottom, transparent 9%, black 100%);
+    position: fixed;
+    left: 0; 
+
+}
+
+
+@media (max-width: 575.98px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        display: flexbox;
+    }
+
+
+
+    header{
+        height: 200px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;  
+        background-color: #00091A;
+        flex-direction: column-reverse;
+       
+
+       
+        
+    }
+
+    .search_section{
+        width: 100%;
+        height: auto;
+        background-color: #00091A;
+        border-radius: 10px;
+   
+        
+       
+    }
+
+
+
+    .search_div {
+        width: 100%;
+        background-color: #0186d7;
+     
+        
+    }
+
+    .search_div input{
+        background-color: #0186d7;
+        border-bottom: #0186d7;
+        
+    }
+
+    .menu{
+       
+        width: 100%;
+        height: 40px;
+     
+        
+    }
+
+    .body_menu{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+        
+
+    }
+
+    .body_menu a {
+        color: #F36324;
+        
+    }
+
+    .user{
+        width:100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10;
+
+    }
+
+    .dropdown-menu{
+      width: auto;
+    }
+
+    .cart
+    {
+        width: 10%;
+        background-color: #00091A;
+        border-radius: 0px 0px 10px 10px;
+        
+
+    }
+
+    .nav{
+        width: 10%;
+        background-color: #00091A;
+
+        border-radius: 10px 10px 0px 0px;
+   
+        
+    }
+
+
+
+    .user_desc{
+        display: none;
+        color: #ffffff;
+    }
+
+
+
+
+
+
+    .infos_Register{
+        width: 100%;
+        height: auto;
+        
+
+    }
+
+    .tittle_register{
+        background-color: #F36324;
+
+       
+
+    }
+
+    .tittle_register h1{
+        font-size: 20px;
+
+    }
+
+    .tittle_register h2{
+        font-size: 12px;
+
+    }
+
+    .form_register{
+        width: 100%;
+    }
+
+    .form_register form input{
+        height: 50px;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        display: flexbox;
+    }
+
+
+
+    header{
+        height: 200px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;  
+        background-color: #00091A;
+        flex-direction: column-reverse;
+       
+
+       
+        
+    }
+
+    .search_section{
+        width: 100%;
+        height: auto;
+        background-color: #00091A;
+        border-radius: 10px;
+   
+        
+       
+    }
+
+
+
+    .search_div {
+        width: 100%;
+        background-color: #0186d7;
+        
+    }
+
+    .search_div input{
+        background-color: #0186d7;
+        border-bottom: #0186d7;
+        
+    }
+
+
+    .menu{
+       
+        width: 100%;
+        height: 40px;
+     
+        
+    }
+
+    .body_menu{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+        
+
+    }
+
+    .body_menu a {
+        color: #F36324;
+        
+    }
+
+
+    .user{
+        width:100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10;
+
+    }
+
+    .dropdown-menu{
+        width: auto;
+    }
+
+
+    .cart{
+        width: 10%;
+        background-color: #00091A;
+         border-radius: 0px 0px 10px 10px;
+          
+  
+    }
+  
+
+    .nav{
+        width: 10%;
+        background-color:#00091A ;
+
+        border-radius: 10px, 10px, 0px, 0px;
+   
+        
+    }
+
+    .user_desc{
+        display: none;
+        color: #ffffff;
+    }
+
+
+
+
+    .infos_Register{
+        width: 100%;
+        height: auto;
+        
+
+    }
+
+    .tittle_register{
+        background-color: #F36324;
+
+       
+
+    }
+
+    .tittle_register h1{
+        font-size: 20px;
+
+    }
+
+    .tittle_register h2{
+        font-size: 20px;
+
+    }
+
+    .form_register{
+        width: 100%;
+    }
+
+    .form_register form input{
+        height: 50px;
+        
+    }
+
+
+}
+
+
+
+@media (min-width: 787px) and (max-width: 1600.98px) {
+
+
+    *{
+        margin: 0;
+        padding: 0;
+        display: flexbox;
+    }
+
+
+
+
+    header{
+        width: 100%;
+        height: 100px;
+        margin-bottom: 0%;
+    
+        
+ 
+
+    }
+
+
+    footer{
+        background-color: #F36324;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .infos_Register{
+        width: 100%;
+        height: auto;
+        
+
+    }
+
+    .tittle_register{
+        background-color: #F36324;
+
+       
+
+    }
+
+    .tittle_register h1{
+        font-size: 20px;
+
+    }
+
+    .tittle_register h2{
+        font-size: 20px;
+
+    }
+
+    .form_register{
+        width: 100%;
+    }
+
+    .form_register form input{
+        height: 50px;
+        
+    }
+
+}
+
+@media (min-width: 1600.98px) {
+    .tittle_register{
+        background-color: #F36324;
+
+       
+
+    }
+
+}
